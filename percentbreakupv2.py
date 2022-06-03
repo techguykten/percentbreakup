@@ -51,8 +51,8 @@ while True:
                                                                                |_| ''')  
 
         print(Fore.MAGENTA)
-        a = input(" Xin mời bạn nhập người thứ 1: ")
-        b = input(" Xin mời bạn nhập người thứ 2: ")
+        a = input(" Xin mời bạn nhập người thứ 1: ") # Put name here
+        b = input(" Xin mời bạn nhập người thứ 2: ") # Put name here
         print(" Tỉ lệ đổ vỡ của cặp đôi", a, "và", b, end = ' ')
         print("là:", end = ' ')
         print(randint(1, 100), end = ' ')
